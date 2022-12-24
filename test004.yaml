@@ -470,10 +470,10 @@ spec:
           timeoutSeconds: 1
         name: controller
         ports:
-        - containerPort: 80
+        - containerPort: 8888
           name: http
           protocol: TCP
-        - containerPort: 443
+        - containerPort: 9999
           name: https
           protocol: TCP
         - containerPort: 8443
